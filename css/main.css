@@ -2011,3 +2011,20 @@ gallery grid
   background-repeat: no-repeat;
   background-position: center;
 }
+
+*::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+    background: linear-gradient(rgba(3, 38, 73, 0.8) 0%, rgb(3, 38, 73) 100%);
+}
+
+*::-webkit-scrollbar
+{
+    width: 10px;
+    background: linear-gradient(rgba(3, 38, 73, 0.8) 0%, rgb(3, 38, 73) 100%);
+}
+
+*::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+}
