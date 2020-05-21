@@ -2,6 +2,73 @@
 /*	DESKTOP LAYOUT 
 /*===========================================*/
 
+.sp-div .dabba{
+    position: relative;
+    display: flex;
+    max-width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#carhp{
+    max-width: 60%;
+}
+
+#zebronics .dabba{
+    padding: 12.5% 0;
+}
+
+.sp-div .dabba img{
+    margin: auto;
+}
+.col-12 .dabba
+{
+    max-width: 275px;
+    margin: 0 auto;
+}
+
+.dabba img
+{
+    max-height: 100%;
+}
+
+.sp-div .sponsor-info{
+    align-items: center;
+}
+
+.sponsor-info
+{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+}
+
+.sponsor-info p
+{
+    font-size: 1.5em;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.sponsor-info h4
+{
+    margin-bottom: 4px;
+}
+
+@media(max-width: 400px){
+    .sp-div .dabba{
+        max-width: 150px;
+        padding: 0;
+    }
+
+    .sp-div .sponsor-info{
+        padding: 0;
+    }
+}
 
 @media (min-width: 1200px) {
 	
