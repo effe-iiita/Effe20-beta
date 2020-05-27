@@ -1,0 +1,135 @@
+
+@media screen and (max-width: 1360px){
+}
+
+@media screen and (max-width: 1200px){
+    .starting-first-screen .girl {
+        max-width: 500px;
+    }
+
+    .starting-first-screen .imac {
+        max-width: 600px;
+    }
+
+    .starting-first-screen .moon {
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .starting-first-screen .imac {
+    right: 0;
+    transition-delay: 1s;
+}
+
+.starting-first-screen .girl {
+    left: 5%;
+    transition-delay: 1.5s;
+}
+
+.starting-first-screen .moon {
+    opacity: 1;
+    transition-delay: .6s;
+}
+
+.ss-col.left,
+.ss-col.right {
+    opacity: 1;
+    visibility: visible;
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+}
+
+.ss-col.left {
+    transition-delay: .5s;
+}
+
+.ss-col.right {
+    transition-delay: .9s;
+}
+
+.fc-item-img-cols .heading-with-num {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fc-item-img-cols img {
+    opacity: 1;
+    visibility: visible;
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+}
+    }
+
+@media screen and (max-width: 768px){
+    .ss-col {
+    position: relative;
+    top: 0;
+    padding: 0;
+}
+
+.ss-col.top {
+    top: 0;
+    left: 0;
+}
+
+.ss-col.bottom {
+    bottom: 0;
+}
+
+.ss-container, .starting-first-screen {
+    position: relative !important;
+    left: 0;
+    padding: 0 15px !important;
+    -moz-transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+    transform: none;
+    /* width: 90%; */
+}
+
+.ss-bg {
+    display: none;
+}
+
+.ss-col.white {
+    color: #fff;
+}
+
+.starting-first-screen {
+    height: 100vh;
+}
+
+.starting-first-screen .girl {
+    width: 55%;
+}
+
+.starting-first-screen .imac {
+    width: 60%;
+}
+    }
+
+@media screen and (max-width: 640px){
+    .heading-with-num {
+    font-size: 10px;
+    margin: 40px 0 25px;
+}
+
+.starting-first-screen .girl {
+    width: 65%;
+}
+
+.starting-first-screen .imac {
+    width: 65%;
+    bottom: 0;
+}
+    }
+@media screen and (max-width: 380px){
+}
