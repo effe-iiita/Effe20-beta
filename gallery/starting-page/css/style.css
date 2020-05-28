@@ -13,7 +13,7 @@ body.ypromo-site-bar-body #all {
 }
 
 .site-header .logo img {
-    margin-left: 5px;
+    margin-left: 10px;
     width: 70px;
     height: auto;
 }
@@ -251,6 +251,7 @@ body.ypromo-site-bar-body #all {
     width: 100%;
     height: 100%;
     display: block;
+    object-fit: contain;
 }
 
 .pages-slider-area .slider-navigation {
