@@ -13,7 +13,8 @@ body.ypromo-site-bar-body #all {
 }
 
 .site-header .logo img {
-    width: 80px;
+    margin-left: 5px;
+    width: 70px;
     height: auto;
 }
 
