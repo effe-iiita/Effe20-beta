@@ -516,11 +516,6 @@ h6,
 .txt-gray:hover {
   color: #f9f9f9;
 }
-.txt-white,
-.typo-light .txt-white,
-.txt-white:hover {
-  color: #ffffff;
-}
 .txt-black,
 .typo-light .txt-black,
 .txt-black:hover {
