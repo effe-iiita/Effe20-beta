@@ -47,7 +47,11 @@
 </head>
 
 <body class="loader-bg-default5">
-
+	<div class="loader">
+		<div class="loader_inner">
+			<img src="images/effe20.png"/>
+		</div>
+	</div>
 	<!-- MAIN-WRAPPER -->
 	<div class="mainwrapper tab-widget">
 		<!-- data-rgradient="y" data-rg-colors="rgba(11, 94, 146, 1)|rgba(0, 10, 35, 1)" -->
@@ -95,7 +99,7 @@
 							</a><!-- / LOGO -->
 						</div>
 
-						<div class="flex-col-md-10 align-l">
+						<div class="flex-col-md-10 align-r">
 
 							<ul class="nc-navigation-2 navigation--ul f-2 txt-white inline-block txt-upper fs14"
 								data-nc-sm="pd-20 bg-dark-op" data-nc-md="pd-30">
@@ -1213,7 +1217,6 @@
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
-	<script type="text/javascript" src="lib/pace/pace.min.js"></script>
 	<script type="text/javascript" src="js/anime.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/structure.js"></script>
@@ -1222,7 +1225,14 @@
 	<!-- EFFECT -->
 	<script type="text/javascript" src="lib/particle-animation/particles.min.js"></script>
 	<script type="text/javascript" src="lib/particle-animation/partical-animation.js"></script>
+	<script>
+		$(window).load(function() {
 
+		$(".loader_inner").delay(200).fadeOut();
+		$(".loader").delay(300).fadeOut("slow");
+
+		});
+	</script>
 </body>
 
 </html>
