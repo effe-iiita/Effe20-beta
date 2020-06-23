@@ -2088,6 +2088,12 @@ gallery grid
   max-width: 100%;
 }
 
+@media (max-width: 800px) {
+  .loader_inner img {
+    height: 300px;
+  }
+}
+
 @keyframes beat
 {
   0%
