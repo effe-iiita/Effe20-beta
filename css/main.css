@@ -2053,6 +2053,8 @@ gallery grid
 
 .mainbgwrapper {
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mainwrapper--nclayer2 {
